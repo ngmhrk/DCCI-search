@@ -13,10 +13,26 @@ Directional Cubic Convolution Interpolation (DCCI) の性能向上を目的と�
 
 ### 準備
 
+以下のライブラリを利用しています
+- OpenCV
+  - 概要: 画像処理ライブラリ
+  - URL: https://opencv.org/
+- Halide
+  - 概要: 画像処理に特化したドメイン固有言語
+  - URL: https://halide-lang.org/
+- OpenCP
+  - 概要: 画像処理ライブラリ（研究室内向け）
+  - URL: https://github.com/norishigefukushima/OpenCP
+
+
 以下の環境変数を使用しています。
-- OPENCV_INCLUDE_DIR, OPENCV_LIB_DIR
-- HALIDE_INCLUDE_DIR, HALIDE_LIB_DIR, HALIDE_BIN_DIR
-- OPENCP_INCLUDE_DIR, OPENCP_LIB_DIR
+- OPENCV_INCLUDE_DIR: OpenCVのincludeディレクトリへのPath
+- OPENCV_LIB_DIR: OpenCVのlibディレクトリへのPath
+- HALIDE_INCLUDE_DIR: HalideのincludeディレクトリへのPath
+- HALIDE_LIB_DIR: HalideのlibディレクトリへのPath
+- HALIDE_BIN_DIR: HalideのbinディレクトリへのPath
+- OPENCP_INCLUDE_DIR: OpenCPのincludeディレクトリへのPath
+- OPENCP_LIB_DIR: OpenCPのlibディレクトリへのPath
 
 ### 手順
 
